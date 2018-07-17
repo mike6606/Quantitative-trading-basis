@@ -9,13 +9,13 @@
 * 离市——何时退出赢利的头寸
 
 ### 一个典型的双均线策略 初始化
-> '''
+> ```
 > 双均线策略，当五日均线位于十日均线上方则买入，反之卖出。
-> '''
+> ```
 >
 >
 > ## 初始化函数，设定要操作的股票，基准等等
->``` def initialize(context):
+> ``` def initialize(context):
 >     # 定义一个全局变量，保存要操作的股票
 >     # 000002（股票：万科A）
 >     g.security = '000002.XSHE'
@@ -41,4 +41,4 @@
 >	ma_n1 = close_data['close'][-n1:].mean()
 >	ma_n2 = close(data['close'][-n2:].mean()
 > 	# 取得当前的现金
-> 	cash = context.portfolio.cash```
+> 	cash = context.portfolio.cash ```
