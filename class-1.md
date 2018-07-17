@@ -41,5 +41,4 @@
 >	ma_n1 = close_data['close'][-n1:].mean()
 >	ma_n2 = close(data['close'][-n2:].mean()
 > 	# 取得当前的现金
-> 	cash = context.portfolio.cash
-```
+> 	cash = context.portfolio.cash```
